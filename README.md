@@ -1,6 +1,6 @@
 # 📊 Personal Expense Tracker – Wk 14
 
-This project is an improved version of the expense tracker built in **Week 5**.  
+This project is an improved version of the expense tracker built in **Week 10**.  
 The application allows users to manage personal expenses effectively, with enhanced features for filtering, editing, and tracking.
 
 ---
