@@ -40,7 +40,37 @@
     <main>
       <h1>Personal Expense Tracker with Filters and Charts</h1>
 
-      <form action=""></form>
+      <form id="expenseForm" class="expense-form">
+        <h4>Enter Expense Details</h4>
+        
+        <span class="form_line"></span>
+
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" required />
+
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" name="amount" required />
+
+        <label for="category">Category</label>
+        <select id="category" name="category required">
+          <option value="" disabled selected >Select a category</option>
+          <option value="Food">Food</option>
+          <option value="transport">Transport</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="medicines">Medicines</option>
+        </select>
+
+        <section class="form_btns">
+          <button type="submit" class="btn_form btn_submit" id="btn_submit" name="btn_submit">Add</button>
+          <button type="reset" class="btn_form btn_reset" id="btn_reset" name="btn_reset">Reset</button>
+        </section>
+
+      </form>
+
+      <section class="resume">
+        <p>Total: $0</p>
+        <button class="btn_clear">Clear all</button>
+      </section>
 
     </main>
 
