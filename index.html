@@ -68,8 +68,20 @@
       </form>
 
       <section class="resume">
-        <p>Total: $0</p>
+        <p class="total">Total: $0</p>
         <button class="btn_clear">Clear all</button>
+
+        <button class="btn_clearFilter">Clear Filter</button>
+
+        <select id="categorySearch" name="categorySearch" class="categorySearch">
+          <option value="" disabled selected >Select a category</option>
+          <option value="Food">Food</option>
+          <option value="transport">Transport</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="medicines">Medicines</option>
+        </select>
+
+        <section class="expense"></section>
       </section>
 
     </main>
