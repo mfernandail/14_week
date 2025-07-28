@@ -103,14 +103,14 @@ label {
   background-color: #888888;
 }
 
+.delete_expense {
+  text-decoration: none;
+  font-size: 12px;
+}
 
 
 .resume {
   margin-top: 50px;
-}
-
-.resume p {
-
 }
 
 .btn_clear {
@@ -123,6 +123,26 @@ label {
   background-color: #388E3C;
 }
 
+.btn_clearFilter {
+  border-radius: 10px 0 10px 0;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #388E3C;
+}
+
+.categorySearch {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 10px;
+  outline: none;
+  background-color: #388E3C;
+  color: #fff;
+}
+
 .expense-list {
   margin-top: 30px;
   text-align: start;
@@ -130,4 +150,26 @@ label {
 
 .expense-item {
   list-style: disc;
+}
+
+.expense {
+  margin-top: 20px;
+}
+
+.expenseDesc {
+  cursor: pointer;
+}
+
+.hideResume {
+  display: none;
+}
+
+.showResume {
+  display: block;
+}
+
+.total {
+  font-size: 20px;
+  color: #388E3C;
+  font-weight: bold;
 }
